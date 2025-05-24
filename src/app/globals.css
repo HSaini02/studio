@@ -13,7 +13,7 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222 84% 4.9%;
 
-    --primary: 233 70% 66%; /* Deep indigo #667eea */
+    --primary: 265 60% 55%; /* Purple */
     --primary-foreground: 0 0% 100%; /* White */
 
     --secondary: 240 4.8% 95.9%; /* Lighter gray */
@@ -22,23 +22,23 @@
     --muted: 240 4.8% 95.9%;
     --muted-foreground: 240 3.8% 46.1%;
 
-    --accent: 260 93% 93%; /* Soft Lavender #d3aefe */
-    --accent-foreground: 233 70% 40%; /* Darker Indigo for contrast */
+    --accent: 270 85% 92%; /* Light Lavender */
+    --accent-foreground: 265 50% 35%; /* Darker Purple for contrast */
 
     --destructive: 0 72.2% 50.6%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 240 5.9% 90%;
     --input: 240 5.9% 90%;
-    --ring: 233 70% 66%; /* Primary color for rings */
+    --ring: 265 60% 55%; /* Purple for rings */
 
     --radius: 0.5rem;
 
-    --chart-1: 233 70% 66%;
-    --chart-2: 260 80% 70%;
-    --chart-3: 190 70% 50%;
-    --chart-4: 40 80% 60%;
-    --chart-5: 0 70% 65%;
+    --chart-1: 265 60% 55%; /* Purple */
+    --chart-2: 280 70% 70%; /* Lighter purple variant */
+    --chart-3: 190 70% 50%; /* Kept for variety, tealish */
+    --chart-4: 40 80% 60%;  /* Kept for variety, orangeish */
+    --chart-5: 0 70% 65%;   /* Kept for variety, reddish */
   }
 
   .dark {
@@ -51,8 +51,8 @@
     --popover: 222 84% 4.9%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 233 70% 70%; /* Slightly lighter indigo for dark mode */
-    --primary-foreground: 0 0% 100%;
+    --primary: 265 60% 65%; /* Lighter Purple for dark mode */
+    --primary-foreground: 0 0% 100%; /* White */
 
     --secondary: 217.2 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
@@ -60,15 +60,15 @@
     --muted: 217.2 32.6% 17.5%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 260 80% 80%; /* Lighter Lavender for dark mode */
-    --accent-foreground: 233 70% 50%;
+    --accent: 270 80% 85%; /* Lighter Lavender for dark mode */
+    --accent-foreground: 265 50% 95%; /* Very Light Purple/White for contrast */
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
-    --ring: 233 70% 70%;
+    --ring: 265 60% 65%; /* Lighter Purple for rings */
   }
 }
 

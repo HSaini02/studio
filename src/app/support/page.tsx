@@ -7,7 +7,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Mail, MessageSquareQuestion } from 'lucide-react';
+import { Mail, MessageCircleQuestion } from 'lucide-react';
 
 export default function SupportPage() {
   return (
@@ -20,7 +20,7 @@ export default function SupportPage() {
       <div className="grid md:grid-cols-2 gap-12">
         <section>
           <h2 className="text-2xl font-semibold mb-6 flex items-center">
-            <MessageSquareQuestion className="h-7 w-7 mr-3 text-primary" />
+            <MessageCircleQuestion className="h-7 w-7 mr-3 text-primary" />
             Frequently Asked Questions
           </h2>
           {mockFAQs.length > 0 ? (
