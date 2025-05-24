@@ -54,7 +54,7 @@ export default function RegisterForm() {
          <div className="mx-auto mb-4">
           <Hammer className="h-12 w-12 text-primary" />
         </div>
-        <CardTitle className="text-2xl font-bold">Create Your BidVerse Account</CardTitle>
+        <CardTitle className="text-2xl font-bold">Create Your FairBid Account</CardTitle>
         <CardDescription>Join our community and start bidding on exclusive items today.</CardDescription>
       </CardHeader>
       <CardContent>

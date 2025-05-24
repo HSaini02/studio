@@ -6,7 +6,7 @@ export default function PrivacyPage() {
       <p>Last updated: {new Date().toLocaleDateString()}</p>
 
       <h2>1. Introduction</h2>
-      <p>BidVerse ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.</p>
+      <p>FairBid ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website and use our services.</p>
 
       <h2>2. Information We Collect</h2>
       <p>We may collect personal information from you in a variety of ways, including:</p>

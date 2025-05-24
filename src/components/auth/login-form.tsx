@@ -57,7 +57,7 @@ export default function LoginForm() {
         <div className="mx-auto mb-4">
           <Hammer className="h-12 w-12 text-primary" />
         </div>
-        <CardTitle className="text-2xl font-bold">Welcome Back to BidVerse!</CardTitle>
+        <CardTitle className="text-2xl font-bold">Welcome Back to FairBid!</CardTitle>
         <CardDescription>Sign in to access your account and start bidding.</CardDescription>
       </CardHeader>
       <CardContent>

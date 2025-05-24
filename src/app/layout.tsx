@@ -10,8 +10,8 @@ import { ThemeProvider } from "@/components/shared/theme-provider";
 const inter = Inter({ subsets: ['latin'], variable: '--font-inter' });
 
 export const metadata: Metadata = {
-  title: 'BidVerse - Secure Online Bidding',
-  description: 'Experience a secure and transparent online auction system with BidVerse.',
+  title: 'FairBid - Secure Online Bidding',
+  description: 'Experience a secure and transparent online auction system with FairBid.',
 };
 
 export default function RootLayout({

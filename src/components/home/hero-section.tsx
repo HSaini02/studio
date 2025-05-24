@@ -12,7 +12,7 @@ export default function HeroSection() {
           <span className="block text-primary">Online Auction System</span>
         </h1>
         <p className="max-w-2xl mx-auto text-lg md:text-xl text-muted-foreground mb-10">
-          Join BidVerse for a seamless and trustworthy bidding experience. Discover unique items and bid with confidence.
+          Join FairBid for a seamless and trustworthy bidding experience. Discover unique items and bid with confidence.
         </p>
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 mb-16">
           <Button size="lg" asChild>

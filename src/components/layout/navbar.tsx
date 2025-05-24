@@ -56,7 +56,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-2 text-2xl font-bold text-primary">
             <Hammer className="h-7 w-7" />
-            <span>BidVerse</span>
+            <span>FairBid</span>
           </Link>
 
           <nav className="hidden md:flex items-center space-x-1">
@@ -116,7 +116,7 @@ export default function Navbar() {
                   <div className="flex flex-col space-y-4">
                     <Link href="/" className="flex items-center space-x-2 text-xl font-bold text-primary mb-4">
                        <SheetClose asChild><Hammer className="h-6 w-6" /></SheetClose>
-                       <SheetClose asChild><span>BidVerse</span></SheetClose>
+                       <SheetClose asChild><span>FairBid</span></SheetClose>
                     </Link>
                     {renderNavLinks(true)}
                     <div className="pt-4 border-t border-border">
