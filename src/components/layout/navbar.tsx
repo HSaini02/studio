@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { useAuth } from '@/hooks/use-auth';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger, SheetClose } from '@/components/ui/sheet';
-import { Menu, Hammer, UserCircle, LogOut, LogIn, UserPlus, HandCoins, ShieldCheck, Sparkles, ShoppingBag, CircleHelp, Search, HomeIcon } from 'lucide-react';
+import { Menu, Hammer, UserCircle, LogOut, LogIn, UserPlus } from 'lucide-react';
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
   DropdownMenu,
@@ -14,15 +14,8 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import ThemeToggle from '@/components/shared/theme-toggle'; // Assuming this exists or will be created
-
-const navLinks = [
-  { href: '/', label: 'Home', icon: HomeIcon },
-  { href: '/auctions', label: 'Auctions', icon: Search },
-  { href: '/my-bids', label: 'My Bids', icon: HandCoins, authRequired: true },
-  { href: '/my-auctions', label: 'My Auctions', icon: ShoppingBag, authRequired: true },
-  { href: '/support', label: 'Support', icon: CircleHelp },
-];
+import ThemeToggle from '@/components/shared/theme-toggle';
+import { navLinks } from '@/constants/navigation'; // Updated import
 
 export default function Navbar() {
   const { user, logout, isLoading } = useAuth();
